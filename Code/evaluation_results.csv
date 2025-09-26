@@ -1,0 +1,37 @@
+ID,Type,Question,Bot Response,Accuracy (Automated),Response Time (s)
+1,Simple Fact,Who is the project lead for Project Nova?,Dr. Evelyn Reed,Correct,3.08
+2,Simple Fact,What is the codename for the backend?,The codename for the backend is Orion.,Correct,1.42
+3,Simple Fact,What is the project's go-live target date?,"The project's go-live target date is December 1, 2025.",Correct,1.96
+4,Complex Fact,"What technologies are being used for the frontend development, also known as Lyra?","React and TypeScript
+
+---
+
+**Explanation (based on provided context):** The context specifies under the Technology Stack section that the Frontend (Lyra) uses React and TypeScript.",Correct,2.05
+5,Complex Fact,"Which phase is scheduled for November 15, 2025?","Phase 4 (UAT & Deployment)
+
+**Explanation:** According to the Project Timeline & Milestones, Phase 4 is explicitly scheduled for November 15, 2025.",Correct,2.12
+6,Complex Fact,What is the primary goal of Project Nova?,To build a new client-facing analytics dashboard for real-time data visualization.,Correct,1.47
+7,Inferential,Who is responsible for the Python development?,"**David Chen**, as the Backend Lead for Orion, which uses Python for its development.
+
+---
+
+**References** (from provided context):  
+- **Core Team Members**: Backend Lead: David Chen.  
+- **Technology Stack**: Backend (Orion): Python, FastAPI, PostgreSQL.",Correct,1.98
+8,Inferential,What is the next major phase after the backend is completed on September 30?,"**Phase 3 (Frontend Development - Lyra)**, due October 31, 2025.",Correct,1.8
+9,Negative Test,What is the total budget for Project Nova?,I do not have information on this topic based on the provided document.,Incorrect,1.32
+10,Negative Test,Who is the chief designer for the project?,I do not have information on this topic based on the provided document.,Incorrect,1.55
+11,Negative Test,Is the project currently ahead of schedule?,I do not have information on this topic based on the provided document.,Incorrect,2.45
+12,Boundary Test,What is the start date?,"August 1, 2025
+
+## Explanation
+
+The reasoning process follows a structured evaluation to ensure accuracy based solely on the provided context:
+
+1. **Identify the query**: The question asks for the start date of Project Nova.
+
+2. **Scan the context for relevant information**: The context includes a ""Project Overview"" section stating, ""The project's official start date was August 1, 2025.""
+
+3. **Verify alignment with the query**: This directly addresses the start date, with no conflicting details in the context (e.g., the timeline mentions Phase 1 completion on August 15, 2025, which supports an early August start).
+
+4. **Confirm compliance with guidelines**: The information is explicitly available in the context, so no fabrication or external assumptions are needed; the response is limited to this verified detail.",Correct,3.17
