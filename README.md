@@ -1,4 +1,5 @@
-Project Nova 🚀
+**Project Nova 🚀**
+
 Project Nova is a strategic initiative to develop a client-facing analytics dashboard that enables real-time data visualization and reporting. The project is divided into backend (Orion) and frontend (Lyra) components, with cloud infrastructure on AWS.
 
 📌 Project Overview
